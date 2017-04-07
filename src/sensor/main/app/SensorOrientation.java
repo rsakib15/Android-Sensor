@@ -72,6 +72,6 @@ public class SensorOrientation extends Activity implements SensorEventListener{
 		Log.d("Entry-Log","Enter Orientation onSensorChange() function on SensorOrientation");
 		Log.d("Values","x = " + fx + "y="  + fy + "z= " + fz);
 		textview.setVisibility(View.VISIBLE);
-    	textview.setText("\n" + "Orientation " + "\n\nPitch : " + fx + "\nRoll : " + fy + "\nAzimuth : " + fz);
+    	textview.setText("Orientation " + "\n\nPitch : " + fx + "\nRoll : " + fy + "\nAzimuth : " + fz);
 	}
 }

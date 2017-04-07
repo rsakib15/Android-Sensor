@@ -71,6 +71,6 @@ public class SensorGyroscope extends Activity implements SensorEventListener{
 		Log.d("Entry-Log","Enter Magnetic onSensorChange() function on SensorMagnetic");
 		Log.d("Values","x = " + fx + "y="  + fy + "z= " + fz);
 		textview.setVisibility(View.VISIBLE);
-    	textview.setText("\n" + "Gyroscope" + "\n\nx : " + fx + "\ny : " + fy + "\nz : " + fz);
+    	textview.setText("\n" + "Gyroscope" + "\n\nx : " + fx + " rad/s\ny : " + fy + " rad\nz : " + fz + " rad/s");
 	}
 }

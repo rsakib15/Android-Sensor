@@ -64,6 +64,6 @@ public class SensorLight extends Activity implements SensorEventListener{
 		Log.d("Entry-Log","Enter Light onSensorChange() function on SensorLight");
 		Log.d("Entry-Log","Light Value = " + lux);
 		textview.setVisibility(View.VISIBLE);
-    	textview.setText("\n" + "Light " + "\n\n" +lux + "\n\n");
+    	textview.setText("\n" + "Light " + "\n\n" +lux + " lx\n\n");
 	}
 }

@@ -72,6 +72,6 @@ public class SensorMagnetic extends Activity implements SensorEventListener{
 		Log.d("Entry-Log","Enter Magnetic onSensorChange() function on SensorMagnetic");
 		Log.d("Values","x = " + fx + "y="  + fy + "z= " + fz);
 		textview.setVisibility(View.VISIBLE);
-    	textview.setText("\n" + "Magnetic " + "\n\nx : " + fx + "\ny : " + fy + "\nz : " + fz);
+    	textview.setText("Magnetic " + "\n\nx : " + fx + " uT\ny : " + fy + " uT\nz : " + fz + " uT");
 	}
 }

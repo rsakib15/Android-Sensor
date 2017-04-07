@@ -9,7 +9,6 @@
     <string name="magnetic_sensor">Magnetic</string>
     <string name="gyroscope_sensor">Gyroscope</string>
     <string name="orientation_sensor">Orientation</string>
-    <string name="pressure_sensor">Pressure</string>
     <string	name="back_button">Back</string>
     
     <color name="color_white">#FFFFFF</color>

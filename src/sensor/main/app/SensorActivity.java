@@ -73,10 +73,4 @@ public class SensorActivity extends Activity{
 		Intent i = new Intent(this, SensorOrientation.class);
 		startActivity(i);
 	}
-	
-	public void sensorpressureclick(View arg0){
-		Log.d("Click-Event","Sensor Pressure Event Clicked");
-		Intent i = new Intent(this, SensorMagnetic.class);
-		startActivity(i);
-	}
 }
