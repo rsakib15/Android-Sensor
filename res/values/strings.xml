@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Sensor</string>
+    <string name="app_name_sensor_list">Sensor List</string>
+    <string name="sensor_list">Sensor List</string>
+    <string name="proximity_sensor">Proximity</string>
+    <string name="motion_sensor">Accelerometer</string>
+    <string name="light_sensor">Light</string>
+    <string name="magnetic_sensor">Magnetic</string>
+    <string name="gyroscope_sensor">Gyroscope</string>
+    <string name="orientation_sensor">Orientation</string>
+    <string name="pressure_sensor">Pressure</string>
+    <string	name="back_button">Back</string>
+    
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_gray">#DDDDDD</color>
+    <color name="color_black">#000000</color>
+    
+</resources>
